@@ -42,7 +42,7 @@ $('.gallery .sub-tit').click(function(){
 // modal-popup script
 let ntcTit = $('.notice-txt a');
 for(let idx=0; idx<ntcTit.length; idx++){
-    ntcTit.eq(idx).load('../notice.txt #txt0'+(idx+1));
+    ntcTit.eq(idx).load('https://github.com/pam7464/tmp/tree/main/js #txt0'+(idx+1));
 }
 
 let clickTit = $('.notice-txt li:nth-child(2)');
